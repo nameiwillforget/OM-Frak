@@ -4,7 +4,7 @@
  (:doc "")
  (:info
   (:created "2022/01/07 1:32:50")
-  (:modified "2022/01/07 19:11:51")
+  (:modified "2022/01/08 0:23:00")
   (:by "om-sharp")
   (:version 1.05))
  (:window (:size (500 500)) (:position (0 0)))
@@ -893,7 +893,7 @@
        (:type :abstraction)
        (:reference
         (:patch
-         (:name "schascalerhythm2")
+         (:name "scalerhythm")
          (:doc "")
          (:info
           (:created nil)
@@ -1170,7 +1170,7 @@
           (:connection (:from (:box 7 :out 0)) (:to (:box 8 :in 0)))
           (:connection (:from (:box 8 :out 0)) (:to (:box 3 :in 2))))))
        (:group-id nil)
-       (:name "schascalerhythm2")
+       (:name "scalerhythm")
        (:x 93)
        (:y 160)
        (:w 170)
@@ -1715,18 +1715,11 @@
    (:from (:box 0 :out 0))
    (:to (:box 8 :in 1))
    (:attributes (:color nil :style nil :modif (0 -0.45))))
-  (:connection
-   (:from (:box 0 :out 0))
-   (:to (:box 5 :in 0))
-   (:attributes (:color nil :style nil :modif (0 -0.45))))
   (:connection (:from (:box 2 :out 0)) (:to (:box 5 :in 1)))
   (:connection (:from (:box 3 :out 0)) (:to (:box 5 :in 2)))
   (:connection (:from (:box 4 :out 0)) (:to (:box 5 :in 3)))
   (:connection (:from (:box 5 :out 0)) (:to (:box 10 :in 1)))
-  (:connection
-   (:from (:box 5 :out 0))
-   (:to (:box 1 :in 0))
-   (:attributes (:color nil :style nil :modif (0 0.45))))
+  (:connection (:from (:box 5 :out 0)) (:to (:box 1 :in 0)))
   (:connection
    (:from (:box 6 :out 0))
    (:to (:box 8 :in 2))
@@ -1736,5 +1729,6 @@
    (:to (:box 10 :in 2))
    (:attributes (:color nil :style nil :modif (0 61/203))))
   (:connection (:from (:box 7 :out 0)) (:to (:box 6 :in 0)))
+  (:connection (:from (:box 8 :out 0)) (:to (:box 5 :in 0)))
   (:connection (:from (:box 9 :out 0)) (:to (:box 8 :in 0)))
   (:connection (:from (:box 11 :out 0)) (:to (:box 10 :in 0)))))
