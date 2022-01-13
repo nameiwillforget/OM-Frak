@@ -4,10 +4,10 @@
  (:doc "")
  (:info
   (:created "2021/12/28 19:30:15")
-  (:modified "2021/12/29 21:03:56")
+  (:modified "2022/01/13 21:02:50")
   (:by "om-sharp")
   (:version 1.05))
- (:window (:size (500 589)) (:position (223 268)))
+ (:window (:size (413 559)) (:position (0 45)))
  (:grid nil)
  (:lock nil)
  (:boxes
@@ -36,8 +36,8 @@
    (:reference (:out (:type omout) (:name "out") (:index 1) (:doc "")))
    (:group-id nil)
    (:name "out")
-   (:x 270)
-   (:y 421)
+   (:x 202)
+   (:y 419)
    (:w 45)
    (:h 42)
    (:color
@@ -61,8 +61,8 @@
    (:reference (:out (:type omout) (:name "out") (:index 2) (:doc "")))
    (:group-id nil)
    (:name "out")
-   (:x 357)
-   (:y 415)
+   (:x 287)
+   (:y 416)
    (:w 45)
    (:h 42)
    (:color
@@ -116,8 +116,8 @@
    (:reference iterate)
    (:group-id nil)
    (:name "iterate")
-   (:x 175)
-   (:y 421)
+   (:x 107)
+   (:y 419)
    (:w 69)
    (:h 42)
    (:color
@@ -131,6 +131,11 @@
    (:inputs
     (:input
      (:type :standard)
+     (:name "action")
+     (:value nil)
+     (:reactive nil))
+    (:input
+     (:type :optional)
      (:name "action")
      (:value nil)
      (:reactive nil))
@@ -205,8 +210,8 @@
    (:reference collect)
    (:group-id nil)
    (:name "collect")
-   (:x 235)
-   (:y 351)
+   (:x 167)
+   (:y 349)
    (:w 69)
    (:h 42)
    (:color
@@ -243,8 +248,8 @@
    (:reference collect)
    (:group-id nil)
    (:name "collect")
-   (:x 321)
-   (:y 353)
+   (:x 253)
+   (:y 351)
    (:w 69)
    (:h 42)
    (:color
