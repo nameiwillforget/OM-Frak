@@ -3,11 +3,11 @@
  (:name "om-frak-core")
  (:doc "")
  (:info
-  (:created "2022/01/23 0:47:12")
-  (:modified "2022/01/25 17:10:16")
+  (:created "2022/01/25 17:34:05")
+  (:modified "2022/01/25 17:59:42")
   (:by "om-sharp")
   (:version 1.05))
- (:window (:size (1181 629)) (:position (90 129)))
+ (:window (:size (1184 623)) (:position (82 131)))
  (:grid nil)
  (:lock nil)
  (:boxes
@@ -16,8 +16,8 @@
    (:reference (:in (:type omin) (:index 1) (:name "in") (:doc "")))
    (:group-id nil)
    (:name "in")
-   (:x 51)
-   (:y 50)
+   (:x 47)
+   (:y 44)
    (:w 40)
    (:h 42)
    (:color
@@ -36,8 +36,8 @@
    (:reference (:out (:type omout) (:name "out") (:index 1) (:doc "")))
    (:group-id nil)
    (:name "out")
-   (:x 263)
-   (:y 529)
+   (:x 259)
+   (:y 523)
    (:w 45)
    (:h 42)
    (:color
@@ -61,8 +61,8 @@
    (:reference (:in (:type omin) (:index 2) (:name "in") (:doc "")))
    (:group-id nil)
    (:name "in")
-   (:x 152)
-   (:y 48)
+   (:x 148)
+   (:y 42)
    (:w 40)
    (:h 42)
    (:color
@@ -81,8 +81,8 @@
    (:reference (:in (:type omin) (:index 3) (:name "in") (:doc "")))
    (:group-id nil)
    (:name "in")
-   (:x 294)
-   (:y 46)
+   (:x 290)
+   (:y 40)
    (:w 40)
    (:h 42)
    (:color
@@ -101,8 +101,8 @@
    (:reference (:in (:type omin) (:index 4) (:name "in") (:doc "")))
    (:group-id nil)
    (:name "in")
-   (:x 379)
-   (:y 48)
+   (:x 375)
+   (:y 42)
    (:w 40)
    (:h 42)
    (:color
@@ -121,8 +121,8 @@
    (:reference (:in (:type omin) (:index 5) (:name "in") (:doc "")))
    (:group-id nil)
    (:name "in")
-   (:x 479)
-   (:y 47)
+   (:x 475)
+   (:y 41)
    (:w 40)
    (:h 42)
    (:color
@@ -141,8 +141,8 @@
    (:reference (:in (:type omin) (:index 6) (:name "in") (:doc "")))
    (:group-id nil)
    (:name "in")
-   (:x 574)
-   (:y 48)
+   (:x 570)
+   (:y 42)
    (:w 40)
    (:h 42)
    (:color
@@ -161,8 +161,8 @@
    (:reference (:in (:type omin) (:index 7) (:name "in") (:doc "")))
    (:group-id nil)
    (:name "in")
-   (:x 679)
-   (:y 47)
+   (:x 675)
+   (:y 41)
    (:w 40)
    (:h 42)
    (:color
@@ -181,8 +181,8 @@
    (:reference (:in (:type omin) (:index 8) (:name "in") (:doc "")))
    (:group-id nil)
    (:name "in")
-   (:x 779)
-   (:y 47)
+   (:x 775)
+   (:y 41)
    (:w 40)
    (:h 42)
    (:color
@@ -201,8 +201,8 @@
    (:reference (:in (:type omin) (:index 9) (:name "in") (:doc "")))
    (:group-id nil)
    (:name "in")
-   (:x 885)
-   (:y 45)
+   (:x 881)
+   (:y 39)
    (:w 40)
    (:h 42)
    (:color
@@ -221,8 +221,8 @@
    (:reference (:in (:type omin) (:index 10) (:name "in") (:doc "")))
    (:group-id nil)
    (:name "in")
-   (:x 989)
-   (:y 49)
+   (:x 985)
+   (:y 43)
    (:w 40)
    (:h 42)
    (:color
@@ -241,8 +241,8 @@
    (:reference (:in (:type omin) (:index 11) (:name "in") (:doc "")))
    (:group-id nil)
    (:name "in")
-   (:x 1082)
-   (:y 43)
+   (:x 1078)
+   (:y 37)
    (:w 40)
    (:h 42)
    (:color
@@ -267,7 +267,7 @@
       (:modified nil)
       (:by *app-name*)
       (:version 0))
-     (:window (:size (529 500)) (:position (83 128)))
+     (:window (:size nil) (:position nil))
      (:grid nil)
      (:lock nil)
      (:boxes
@@ -502,7 +502,7 @@
           (:modified nil)
           (:by *app-name*)
           (:version 0))
-         (:window (:size (500 500)) (:position (0 0)))
+         (:window (:size nil) (:position nil))
          (:grid nil)
          (:lock nil)
          (:boxes
@@ -737,7 +737,7 @@
               (:modified nil)
               (:by *app-name*)
               (:version 0))
-             (:window (:size (500 500)) (:position (0 0)))
+             (:window (:size nil) (:position nil))
              (:grid nil)
              (:lock nil)
              (:boxes
@@ -1030,7 +1030,7 @@
                   (:modified nil)
                   (:by *app-name*)
                   (:version 0))
-                 (:window (:size (986 768)) (:position (218 263)))
+                 (:window (:size nil) (:position nil))
                  (:grid nil)
                  (:lock nil)
                  (:boxes
@@ -1297,7 +1297,7 @@
                       (:modified nil)
                       (:by *app-name*)
                       (:version 0))
-                     (:window (:size (500 500)) (:position (0 0)))
+                     (:window (:size nil) (:position nil))
                      (:grid nil)
                      (:lock nil)
                      (:boxes
@@ -1521,7 +1521,7 @@
                       (:modified nil)
                       (:by *app-name*)
                       (:version 0))
-                     (:window (:size (500 500)) (:position (0 0)))
+                     (:window (:size nil) (:position nil))
                      (:grid nil)
                      (:lock nil)
                      (:boxes
@@ -1950,7 +1950,7 @@
                       (:modified nil)
                       (:by *app-name*)
                       (:version 0))
-                     (:window (:size (500 500)) (:position (0 0)))
+                     (:window (:size nil) (:position nil))
                      (:grid nil)
                      (:lock nil)
                      (:boxes
@@ -2179,7 +2179,7 @@
                       (:modified nil)
                       (:by *app-name*)
                       (:version 0))
-                     (:window (:size (500 500)) (:position (0 0)))
+                     (:window (:size nil) (:position nil))
                      (:grid nil)
                      (:lock nil)
                      (:boxes
@@ -2964,7 +2964,7 @@
                           (:modified nil)
                           (:by *app-name*)
                           (:version 0))
-                         (:window (:size (500 500)) (:position (0 0)))
+                         (:window (:size nil) (:position nil))
                          (:grid nil)
                          (:lock nil)
                          (:boxes
@@ -3636,7 +3636,7 @@
                       (:modified nil)
                       (:by *app-name*)
                       (:version 0))
-                     (:window (:size (454 474)) (:position (263 308)))
+                     (:window (:size nil) (:position nil))
                      (:grid nil)
                      (:lock nil)
                      (:boxes
@@ -3799,7 +3799,7 @@
                           (:modified nil)
                           (:by *app-name*)
                           (:version 0))
-                         (:window (:size (500 500)) (:position (0 0)))
+                         (:window (:size nil) (:position nil))
                          (:grid nil)
                          (:lock nil)
                          (:boxes
@@ -4230,7 +4230,7 @@
                       (:modified nil)
                       (:by *app-name*)
                       (:version 0))
-                     (:window (:size (500 500)) (:position (0 0)))
+                     (:window (:size nil) (:position nil))
                      (:grid nil)
                      (:lock nil)
                      (:boxes
@@ -4398,7 +4398,7 @@
                           (:modified nil)
                           (:by *app-name*)
                           (:version 0))
-                         (:window (:size (500 500)) (:position (0 0)))
+                         (:window (:size nil) (:position nil))
                          (:grid nil)
                          (:lock nil)
                          (:boxes
@@ -4829,7 +4829,7 @@
                       (:modified nil)
                       (:by *app-name*)
                       (:version 0))
-                     (:window (:size (500 500)) (:position (0 0)))
+                     (:window (:size nil) (:position nil))
                      (:grid nil)
                      (:lock nil)
                      (:boxes
@@ -5048,7 +5048,7 @@
                           (:modified nil)
                           (:by *app-name*)
                           (:version 0))
-                         (:window (:size (500 500)) (:position (0 0)))
+                         (:window (:size nil) (:position nil))
                          (:grid nil)
                          (:lock nil)
                          (:boxes
@@ -5830,9 +5830,7 @@
                               (:modified nil)
                               (:by *app-name*)
                               (:version 0))
-                             (:window
-                              (:size (500 500))
-                              (:position (0 0)))
+                             (:window (:size nil) (:position nil))
                              (:grid nil)
                              (:lock nil)
                              (:boxes
@@ -7051,7 +7049,7 @@
                       (:modified nil)
                       (:by *app-name*)
                       (:version 0))
-                     (:window (:size (500 500)) (:position (0 0)))
+                     (:window (:size nil) (:position nil))
                      (:grid nil)
                      (:lock nil)
                      (:boxes
@@ -7287,7 +7285,7 @@
                       (:modified nil)
                       (:by *app-name*)
                       (:version 0))
-                     (:window (:size (696 655)) (:position (280 221)))
+                     (:window (:size nil) (:position nil))
                      (:grid nil)
                      (:lock nil)
                      (:boxes
@@ -7573,7 +7571,7 @@
                           (:modified nil)
                           (:by *app-name*)
                           (:version 0))
-                         (:window (:size (500 500)) (:position (0 0)))
+                         (:window (:size nil) (:position nil))
                          (:grid nil)
                          (:lock nil)
                          (:boxes
@@ -7986,7 +7984,7 @@
                           (:modified nil)
                           (:by *app-name*)
                           (:version 0))
-                         (:window (:size (500 500)) (:position (0 0)))
+                         (:window (:size nil) (:position nil))
                          (:grid nil)
                          (:lock nil)
                          (:boxes
@@ -8121,9 +8119,7 @@
                               (:modified nil)
                               (:by *app-name*)
                               (:version 0))
-                             (:window
-                              (:size (500 500))
-                              (:position (0 0)))
+                             (:window (:size nil) (:position nil))
                              (:grid nil)
                              (:lock nil)
                              (:boxes
@@ -9394,7 +9390,7 @@
                       (:modified nil)
                       (:by *app-name*)
                       (:version 0))
-                     (:window (:size (500 500)) (:position (0 0)))
+                     (:window (:size nil) (:position nil))
                      (:grid nil)
                      (:lock nil)
                      (:boxes
@@ -9613,7 +9609,7 @@
                           (:modified nil)
                           (:by *app-name*)
                           (:version 0))
-                         (:window (:size (500 500)) (:position (0 0)))
+                         (:window (:size nil) (:position nil))
                          (:grid nil)
                          (:lock nil)
                          (:boxes
@@ -9832,9 +9828,7 @@
                               (:modified nil)
                               (:by *app-name*)
                               (:version 0))
-                             (:window
-                              (:size (960 998))
-                              (:position (0 45)))
+                             (:window (:size nil) (:position nil))
                              (:grid nil)
                              (:lock nil)
                              (:boxes
@@ -10241,9 +10235,7 @@
                                   (:modified nil)
                                   (:by *app-name*)
                                   (:version 0))
-                                 (:window
-                                  (:size (500 500))
-                                  (:position (0 0)))
+                                 (:window (:size nil) (:position nil))
                                  (:grid nil)
                                  (:lock nil)
                                  (:boxes
@@ -15138,7 +15130,7 @@
                       (:modified nil)
                       (:by *app-name*)
                       (:version 0))
-                     (:window (:size (500 500)) (:position (263 308)))
+                     (:window (:size nil) (:position nil))
                      (:grid nil)
                      (:lock nil)
                      (:boxes
@@ -16481,8 +16473,8 @@
       (:connection (:from (:box 9 :out 0)) (:to (:box 8 :in 0))))))
    (:group-id nil)
    (:name "makecontours")
-   (:x 418)
-   (:y 262)
+   (:x 414)
+   (:y 256)
    (:w 147)
    (:h 28)
    (:color nil)
@@ -16538,8 +16530,8 @@
    (:reference if)
    (:group-id nil)
    (:name "if")
-   (:x 265)
-   (:y 478)
+   (:x 261)
+   (:y 472)
    (:w 47)
    (:h 36)
    (:color nil)
@@ -16574,8 +16566,8 @@
    (:reference om-)
    (:group-id nil)
    (:name "om-")
-   (:x 339)
-   (:y 286)
+   (:x 335)
+   (:y 280)
    (:w 67)
    (:h 36)
    (:color nil)
@@ -16605,8 +16597,8 @@
    (:reference om=)
    (:group-id nil)
    (:name "om=")
-   (:x 208)
-   (:y 437)
+   (:x 204)
+   (:y 431)
    (:w 71)
    (:h 36)
    (:color nil)
@@ -16636,8 +16628,8 @@
    (:reference fixnum)
    (:group-id nil)
    (:name "value box")
-   (:x 218)
-   (:y 399)
+   (:x 214)
+   (:y 393)
    (:w 32)
    (:h 36)
    (:color
@@ -16657,8 +16649,8 @@
    (:reference fixnum)
    (:group-id nil)
    (:name "value box")
-   (:x 372)
-   (:y 252)
+   (:x 368)
+   (:y 246)
    (:w 32)
    (:h 36)
    (:color
@@ -16678,8 +16670,8 @@
    (:reference append)
    (:group-id nil)
    (:name "append")
-   (:x 287)
-   (:y 145)
+   (:x 283)
+   (:y 139)
    (:w 92)
    (:h 36)
    (:color nil)
@@ -16709,8 +16701,8 @@
    (:reference mapcar)
    (:group-id nil)
    (:name "mapcar")
-   (:x 340)
-   (:y 184)
+   (:x 336)
+   (:y 178)
    (:w 93)
    (:h 36)
    (:color nil)
@@ -16751,7 +16743,7 @@
       (:modified nil)
       (:by *app-name*)
       (:version 0))
-     (:window (:size (500 500)) (:position (0 0)))
+     (:window (:size nil) (:position nil))
      (:grid nil)
      (:lock nil)
      (:boxes
@@ -17151,7 +17143,7 @@
           (:modified nil)
           (:by *app-name*)
           (:version 0))
-         (:window (:size (569 398)) (:position (140 185)))
+         (:window (:size nil) (:position nil))
          (:grid nil)
          (:lock nil)
          (:boxes
@@ -17340,7 +17332,7 @@
               (:modified nil)
               (:by *app-name*)
               (:version 0))
-             (:window (:size (500 500)) (:position (0 0)))
+             (:window (:size nil) (:position nil))
              (:grid nil)
              (:lock nil)
              (:boxes
@@ -17538,7 +17530,7 @@
                   (:modified nil)
                   (:by *app-name*)
                   (:version 0))
-                 (:window (:size (1272 998)) (:position (50 45)))
+                 (:window (:size nil) (:position nil))
                  (:grid nil)
                  (:lock nil)
                  (:boxes
@@ -18116,7 +18108,7 @@
                       (:modified nil)
                       (:by *app-name*)
                       (:version 0))
-                     (:window (:size (500 500)) (:position (0 0)))
+                     (:window (:size nil) (:position nil))
                      (:grid nil)
                      (:lock nil)
                      (:boxes
@@ -18477,7 +18469,7 @@
                       (:modified nil)
                       (:by *app-name*)
                       (:version 0))
-                     (:window (:size (602 500)) (:position (230 275)))
+                     (:window (:size nil) (:position nil))
                      (:grid nil)
                      (:lock nil)
                      (:boxes
@@ -18982,7 +18974,7 @@
                       (:modified nil)
                       (:by *app-name*)
                       (:version 0))
-                     (:window (:size (640 500)) (:position (230 275)))
+                     (:window (:size nil) (:position nil))
                      (:grid nil)
                      (:lock nil)
                      (:boxes
@@ -19425,7 +19417,7 @@
                       (:modified nil)
                       (:by *app-name*)
                       (:version 0))
-                     (:window (:size (500 500)) (:position (0 0)))
+                     (:window (:size nil) (:position nil))
                      (:grid nil)
                      (:lock nil)
                      (:boxes
@@ -19948,7 +19940,7 @@
                       (:modified nil)
                       (:by *app-name*)
                       (:version 0))
-                     (:window (:size (625 762)) (:position (230 275)))
+                     (:window (:size nil) (:position nil))
                      (:grid nil)
                      (:lock nil)
                      (:boxes
@@ -20366,7 +20358,7 @@
                           (:modified nil)
                           (:by *app-name*)
                           (:version 0))
-                         (:window (:size (500 500)) (:position (0 0)))
+                         (:window (:size nil) (:position nil))
                          (:grid nil)
                          (:lock nil)
                          (:boxes
@@ -21017,9 +21009,7 @@
                           (:modified nil)
                           (:by *app-name*)
                           (:version 0))
-                         (:window
-                          (:size (500 694))
-                          (:position (275 320)))
+                         (:window (:size nil) (:position nil))
                          (:grid nil)
                          (:lock nil)
                          (:boxes
@@ -21414,39 +21404,6 @@
                            (:value 0)
                            (:id 12))
                           (:box
-                           (:type :special)
-                           (:reference loop-for)
-                           (:group-id nil)
-                           (:name "loop-for")
-                           (:x 166)
-                           (:y 170)
-                           (:w 79)
-                           (:h 42)
-                           (:color
-                            (:color-or-nil
-                             (:color (:color 0.82 0.85 0.7 1.0))
-                             (:t-or-nil t)))
-                           (:border nil)
-                           (:roundness nil)
-                           (:text-font nil)
-                           (:align :center)
-                           (:icon :top)
-                           (:reactive nil)
-                           (:inputs
-                            (:input
-                             (:type :standard)
-                             (:name "from")
-                             (:value 0)
-                             (:reactive nil))
-                            (:input
-                             (:type :standard)
-                             (:name "to")
-                             (:value 10)
-                             (:reactive nil)))
-                           (:outputs
-                            (:output (:name "i") (:reactive nil)))
-                           (:id 13))
-                          (:box
                            (:type :function)
                            (:reference length)
                            (:group-id nil)
@@ -21472,7 +21429,7 @@
                              (:reactive nil)))
                            (:outputs
                             (:output (:name "out") (:reactive nil)))
-                           (:id 14))
+                           (:id 13))
                           (:box
                            (:type :function)
                            (:reference om-)
@@ -21504,7 +21461,7 @@
                              (:reactive nil)))
                            (:outputs
                             (:output (:name "out") (:reactive nil)))
-                           (:id 15))
+                           (:id 14))
                           (:box
                            (:type :value)
                            (:reference fixnum)
@@ -21528,6 +21485,39 @@
                            (:outputs
                             (:output (:name "value") (:reactive nil)))
                            (:value 1)
+                           (:id 15))
+                          (:box
+                           (:type :special)
+                           (:reference loop-for)
+                           (:group-id nil)
+                           (:name "loop-for")
+                           (:x 166)
+                           (:y 174)
+                           (:w 79)
+                           (:h 42)
+                           (:color
+                            (:color-or-nil
+                             (:color (:color 0.82 0.85 0.7 1.0))
+                             (:t-or-nil t)))
+                           (:border nil)
+                           (:roundness nil)
+                           (:text-font nil)
+                           (:align :center)
+                           (:icon :top)
+                           (:reactive nil)
+                           (:inputs
+                            (:input
+                             (:type :standard)
+                             (:name "from")
+                             (:value 0)
+                             (:reactive nil))
+                            (:input
+                             (:type :standard)
+                             (:name "to")
+                             (:value 10)
+                             (:reactive nil)))
+                           (:outputs
+                            (:output (:name "i") (:reactive nil)))
                            (:id 16)))
                          (:connections
                           (:connection
@@ -21537,7 +21527,7 @@
                             (:color nil :style nil :modif (0 -22/49))))
                           (:connection
                            (:from (:box 0 :out 0))
-                           (:to (:box 14 :in 0)))
+                           (:to (:box 13 :in 0)))
                           (:connection
                            (:from (:box 2 :out 0))
                            (:to (:box 6 :in 1)))
@@ -21580,13 +21570,16 @@
                            (:to (:box 3 :in 2)))
                           (:connection
                            (:from (:box 13 :out 0))
-                           (:to (:box 2 :in 0)))
+                           (:to (:box 14 :in 0)))
                           (:connection
                            (:from (:box 14 :out 0))
-                           (:to (:box 15 :in 0)))
+                           (:to (:box 16 :in 1)))
+                          (:connection
+                           (:from (:box 15 :out 0))
+                           (:to (:box 14 :in 1)))
                           (:connection
                            (:from (:box 16 :out 0))
-                           (:to (:box 15 :in 1))))))
+                           (:to (:box 2 :in 0))))))
                        (:group-id nil)
                        (:name "rmbreakpairs")
                        (:x 179)
@@ -22563,8 +22556,8 @@
       (:connection (:from (:box 11 :out 0)) (:to (:box 10 :in 0))))))
    (:group-id nil)
    (:name "finishcontours")
-   (:x 280)
-   (:y 386)
+   (:x 276)
+   (:y 380)
    (:w 140)
    (:h 28)
    (:color nil)
@@ -22610,8 +22603,8 @@
    (:reference om-)
    (:group-id nil)
    (:name "om-")
-   (:x 619)
-   (:y 136)
+   (:x 615)
+   (:y 130)
    (:w 67)
    (:h 36)
    (:color nil)
@@ -22648,8 +22641,8 @@
       (:type "opat"))))
    (:group-id nil)
    (:name "om-frak-core")
-   (:x 647)
-   (:y 365)
+   (:x 563)
+   (:y 328)
    (:w 200)
    (:h 60)
    (:color nil)
@@ -22749,7 +22742,7 @@
   (:connection
    (:from (:box 6 :out 0))
    (:to (:box 12 :in 3))
-   (:attributes (:color nil :style nil :modif (0 0.004945041))))
+   (:attributes (:color nil :style nil :modif (0 0.026923065))))
   (:connection (:from (:box 6 :out 0)) (:to (:box 22 :in 5)))
   (:connection (:from (:box 7 :out 0)) (:to (:box 20 :in 2)))
   (:connection (:from (:box 7 :out 0)) (:to (:box 22 :in 6)))

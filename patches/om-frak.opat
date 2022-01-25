@@ -4,7 +4,7 @@
  (:doc "")
  (:info
   (:created "2022/01/13 23:31:33")
-  (:modified "2022/01/24 21:31:23")
+  (:modified "2022/01/25 17:37:24")
   (:by "om-sharp")
   (:version 1.05))
  (:window (:size (1135 843)) (:position (83 128)))
@@ -976,8 +976,8 @@
             (:patch-from-file
              (:pathname
               (:directory (:relative))
-              (:device nil)
-              (:host nil)
+              (:device :unspecific)
+              (:host :unspecific)
               (:name "replacen")
               (:type "opat"))))
            (:group-id nil)
@@ -1650,8 +1650,8 @@
             (:patch-from-file
              (:pathname
               (:directory (:relative))
-              (:device nil)
-              (:host nil)
+              (:device :unspecific)
+              (:host :unspecific)
               (:name "replacen")
               (:type "opat"))))
            (:group-id nil)
@@ -2258,8 +2258,8 @@
                 (:patch-from-file
                  (:pathname
                   (:directory (:relative))
-                  (:device nil)
-                  (:host nil)
+                  (:device :unspecific)
+                  (:host :unspecific)
                   (:name "replacen")
                   (:type "opat"))))
                (:group-id nil)
@@ -2521,8 +2521,8 @@
                 (:patch-from-file
                  (:pathname
                   (:directory (:relative))
-                  (:device nil)
-                  (:host nil)
+                  (:device :unspecific)
+                  (:host :unspecific)
                   (:name "replacen")
                   (:type "opat"))))
                (:group-id nil)
@@ -4545,8 +4545,8 @@
         (:patch-from-file
          (:pathname
           (:directory (:relative))
-          (:device nil)
-          (:host nil)
+          (:device :unspecific)
+          (:host :unspecific)
           (:name "replacen")
           (:type "opat"))))
        (:group-id nil)
@@ -5225,8 +5225,8 @@
                 (:patch-from-file
                  (:pathname
                   (:directory (:relative))
-                  (:device nil)
-                  (:host nil)
+                  (:device :unspecific)
+                  (:host :unspecific)
                   (:name "replacen")
                   (:type "opat"))))
                (:group-id nil)
@@ -5318,8 +5318,8 @@
                 (:patch-from-file
                  (:pathname
                   (:directory (:relative))
-                  (:device nil)
-                  (:host nil)
+                  (:device :unspecific)
+                  (:host :unspecific)
                   (:name "replacen")
                   (:type "opat"))))
                (:group-id nil)
@@ -5516,8 +5516,8 @@
         (:patch-from-file
          (:pathname
           (:directory (:relative))
-          (:device nil)
-          (:host nil)
+          (:device :unspecific)
+          (:host :unspecific)
           (:name "replacen")
           (:type "opat"))))
        (:group-id nil)
@@ -6320,14 +6320,14 @@
     (:patch-from-file
      (:pathname
       (:directory (:relative))
-      (:device nil)
-      (:host nil)
-      (:name "om-frak-core")
+      (:device :unspecific)
+      (:host :unspecific)
+      (:name "om-frak-core1")
       (:type "opat"))))
    (:group-id nil)
-   (:name "om-frak-core")
-   (:x 559)
-   (:y 432)
+   (:name "om-frak-core1")
+   (:x 535)
+   (:y 423)
    (:w 200)
    (:h 60)
    (:color nil)
