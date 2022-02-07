@@ -4,10 +4,10 @@
  (:doc "")
  (:info
   (:created "2022/01/13 23:31:33")
-  (:modified "2022/01/25 18:14:40")
+  (:modified "2022/02/02 1:21:10")
   (:by "om-sharp")
   (:version 1.05))
- (:window (:size (33 89)) (:position (0 45)))
+ (:window (:size (1191 817)) (:position (173 218)))
  (:grid nil)
  (:lock nil)
  (:boxes
@@ -6443,7 +6443,10 @@
    (:from (:box 16 :out 0))
    (:to (:box 17 :in 1))
    (:attributes (:color nil :style nil :modif (0 -11/80))))
-  (:connection (:from (:box 16 :out 0)) (:to (:box 1 :in 0)))
+  (:connection
+   (:from (:box 16 :out 0))
+   (:to (:box 1 :in 0))
+   (:attributes (:color nil :style nil :modif (0 -66/151))))
   (:connection (:from (:box 18 :out 0)) (:to (:box 17 :in 0)))
   (:connection (:from (:box 19 :out 0)) (:to (:box 4 :in 0)))
   (:connection (:from (:box 20 :out 0)) (:to (:box 5 :in 0)))

@@ -4,7 +4,7 @@
  (:doc "")
  (:info
   (:created "2022/01/25 17:34:05")
-  (:modified "2022/01/25 18:14:32")
+  (:modified "2022/02/01 23:15:38")
   (:by "om-sharp")
   (:version 1.05))
  (:window (:size (1184 623)) (:position (82 131)))
@@ -267,7 +267,7 @@
       (:modified nil)
       (:by *app-name*)
       (:version 0))
-     (:window (:size nil) (:position nil))
+     (:window (:size (500 500)) (:position (218 263)))
      (:grid nil)
      (:lock nil)
      (:boxes
@@ -502,7 +502,7 @@
           (:modified nil)
           (:by *app-name*)
           (:version 0))
-         (:window (:size nil) (:position nil))
+         (:window (:size (500 500)) (:position (0 0)))
          (:grid nil)
          (:lock nil)
          (:boxes
@@ -737,7 +737,7 @@
               (:modified nil)
               (:by *app-name*)
               (:version 0))
-             (:window (:size nil) (:position nil))
+             (:window (:size (500 500)) (:position (0 0)))
              (:grid nil)
              (:lock nil)
              (:boxes
@@ -1030,7 +1030,7 @@
                   (:modified nil)
                   (:by *app-name*)
                   (:version 0))
-                 (:window (:size nil) (:position nil))
+                 (:window (:size (957 762)) (:position (218 263)))
                  (:grid nil)
                  (:lock nil)
                  (:boxes
@@ -9031,8 +9031,8 @@
                         (:patch-from-file
                          (:pathname
                           (:directory (:relative))
-                          (:device nil)
-                          (:host nil)
+                          (:device :unspecific)
+                          (:host :unspecific)
                           (:name "addabs")
                           (:type "opat"))))
                        (:group-id nil)
@@ -9390,7 +9390,7 @@
                       (:modified nil)
                       (:by *app-name*)
                       (:version 0))
-                     (:window (:size nil) (:position nil))
+                     (:window (:size (500 500)) (:position (0 0)))
                      (:grid nil)
                      (:lock nil)
                      (:boxes
@@ -9609,7 +9609,7 @@
                           (:modified nil)
                           (:by *app-name*)
                           (:version 0))
-                         (:window (:size nil) (:position nil))
+                         (:window (:size (500 500)) (:position (0 0)))
                          (:grid nil)
                          (:lock nil)
                          (:boxes
@@ -9828,7 +9828,9 @@
                               (:modified nil)
                               (:by *app-name*)
                               (:version 0))
-                             (:window (:size nil) (:position nil))
+                             (:window
+                              (:size (33 89))
+                              (:position (0 45)))
                              (:grid nil)
                              (:lock nil)
                              (:boxes
@@ -10165,66 +10167,6 @@
                                  (:reactive nil)))
                                (:id 10))
                               (:box
-                               (:type :function)
-                               (:reference nth)
-                               (:group-id nil)
-                               (:name "nth")
-                               (:x 306)
-                               (:y 128)
-                               (:w 61)
-                               (:h 36)
-                               (:color nil)
-                               (:border nil)
-                               (:roundness nil)
-                               (:text-font nil)
-                               (:align nil)
-                               (:icon :left)
-                               (:lock nil)
-                               (:lambda nil)
-                               (:reactive nil)
-                               (:inputs
-                                (:input
-                                 (:type :standard)
-                                 (:name "ORIG-N")
-                                 (:value nil)
-                                 (:reactive nil))
-                                (:input
-                                 (:type :standard)
-                                 (:name "ORIG-LIST")
-                                 (:value nil)
-                                 (:reactive nil)))
-                               (:outputs
-                                (:output
-                                 (:name "out")
-                                 (:reactive nil)))
-                               (:id 11))
-                              (:box
-                               (:type :value)
-                               (:reference fixnum)
-                               (:group-id nil)
-                               (:name "value box")
-                               (:x 308)
-                               (:y 87)
-                               (:w 32)
-                               (:h 36)
-                               (:color
-                                (:color-or-nil
-                                 (:color (:color 1.0 1.0 1.0 1.0))
-                                 (:t-or-nil t)))
-                               (:border nil)
-                               (:roundness nil)
-                               (:text-font nil)
-                               (:align nil)
-                               (:lock nil)
-                               (:reactive nil)
-                               (:inputs)
-                               (:outputs
-                                (:output
-                                 (:name "value")
-                                 (:reactive nil)))
-                               (:value 0)
-                               (:id 12))
-                              (:box
                                (:type :abstraction)
                                (:reference
                                 (:patch
@@ -10235,7 +10177,9 @@
                                   (:modified nil)
                                   (:by *app-name*)
                                   (:version 0))
-                                 (:window (:size nil) (:position nil))
+                                 (:window
+                                  (:size (500 500))
+                                  (:position (0 0)))
                                  (:grid nil)
                                  (:lock nil)
                                  (:boxes
@@ -10457,8 +10401,8 @@
                                     (:patch-from-file
                                      (:pathname
                                       (:directory (:relative))
-                                      (:device nil)
-                                      (:host nil)
+                                      (:device :unspecific)
+                                      (:host :unspecific)
                                       (:name "replacen")
                                       (:type "opat"))))
                                    (:group-id nil)
@@ -10600,7 +10544,7 @@
                                 (:output
                                  (:name "out")
                                  (:reactive nil)))
-                               (:id 13))
+                               (:id 11))
                               (:box
                                (:type :abstraction)
                                (:reference
@@ -10612,7 +10556,9 @@
                                   (:modified nil)
                                   (:by *app-name*)
                                   (:version 0))
-                                 (:window (:size nil) (:position nil))
+                                 (:window
+                                  (:size (500 500))
+                                  (:position (0 0)))
                                  (:grid nil)
                                  (:lock nil)
                                  (:boxes
@@ -10898,8 +10844,8 @@
                                     (:patch-from-file
                                      (:pathname
                                       (:directory (:relative))
-                                      (:device nil)
-                                      (:host nil)
+                                      (:device :unspecific)
+                                      (:host :unspecific)
                                       (:name "replacen")
                                       (:type "opat"))))
                                    (:group-id nil)
@@ -11013,7 +10959,7 @@
                                 (:output
                                  (:name "out")
                                  (:reactive nil)))
-                               (:id 14))
+                               (:id 12))
                               (:box
                                (:type :function)
                                (:reference list)
@@ -11042,7 +10988,7 @@
                                 (:output
                                  (:name "out")
                                  (:reactive nil)))
-                               (:id 15))
+                               (:id 13))
                               (:box
                                (:type :function)
                                (:reference list)
@@ -11071,75 +11017,15 @@
                                 (:output
                                  (:name "out")
                                  (:reactive nil)))
-                               (:id 16))
-                              (:box
-                               (:type :function)
-                               (:reference nth)
-                               (:group-id nil)
-                               (:name "nth")
-                               (:x 230)
-                               (:y 130)
-                               (:w 61)
-                               (:h 36)
-                               (:color nil)
-                               (:border nil)
-                               (:roundness nil)
-                               (:text-font nil)
-                               (:align nil)
-                               (:icon :left)
-                               (:lock nil)
-                               (:lambda nil)
-                               (:reactive nil)
-                               (:inputs
-                                (:input
-                                 (:type :standard)
-                                 (:name "ORIG-N")
-                                 (:value nil)
-                                 (:reactive nil))
-                                (:input
-                                 (:type :standard)
-                                 (:name "ORIG-LIST")
-                                 (:value nil)
-                                 (:reactive nil)))
-                               (:outputs
-                                (:output
-                                 (:name "out")
-                                 (:reactive nil)))
-                               (:id 17))
-                              (:box
-                               (:type :value)
-                               (:reference fixnum)
-                               (:group-id nil)
-                               (:name "value box")
-                               (:x 230)
-                               (:y 89)
-                               (:w 32)
-                               (:h 36)
-                               (:color
-                                (:color-or-nil
-                                 (:color (:color 1.0 1.0 1.0 1.0))
-                                 (:t-or-nil t)))
-                               (:border nil)
-                               (:roundness nil)
-                               (:text-font nil)
-                               (:align nil)
-                               (:lock nil)
-                               (:reactive nil)
-                               (:inputs)
-                               (:outputs
-                                (:output
-                                 (:name "value")
-                                 (:reactive nil)))
-                               (:value 1)
-                               (:id 18))
+                               (:id 14))
                               (:box
                                (:type :abstraction)
                                (:reference
                                 (:patch-from-file
                                  (:pathname
                                   (:directory (:relative))
-                                  (:device nil)
-                                  (:host nil)
+                                  (:device :unspecific)
+                                  (:host :unspecific)
                                   (:name "replacen")
                                   (:type "opat"))))
                                (:group-id nil)
@@ -11178,7 +11064,7 @@
                                 (:output
                                  (:name "out")
                                  (:reactive nil)))
-                               (:id 19))
+                               (:id 15))
                               (:box
                                (:type :value)
                                (:reference fixnum)
@@ -11204,7 +11090,7 @@
                                  (:name "value")
                                  (:reactive nil)))
                                (:value 5)
-                               (:id 20))
+                               (:id 16))
                               (:box
                                (:type :function)
                                (:reference list)
@@ -11233,15 +11119,15 @@
                                 (:output
                                  (:name "out")
                                  (:reactive nil)))
-                               (:id 21))
+                               (:id 17))
                               (:box
                                (:type :abstraction)
                                (:reference
                                 (:patch-from-file
                                  (:pathname
                                   (:directory (:relative))
-                                  (:device nil)
-                                  (:host nil)
+                                  (:device :unspecific)
+                                  (:host :unspecific)
                                   (:name "replacen")
                                   (:type "opat"))))
                                (:group-id nil)
@@ -11280,7 +11166,7 @@
                                 (:output
                                  (:name "out")
                                  (:reactive nil)))
-                               (:id 22))
+                               (:id 18))
                               (:box
                                (:type :value)
                                (:reference fixnum)
@@ -11306,7 +11192,7 @@
                                  (:name "value")
                                  (:reactive nil)))
                                (:value 6)
-                               (:id 23))
+                               (:id 19))
                               (:box
                                (:type :function)
                                (:reference om+)
@@ -11340,7 +11226,7 @@
                                 (:output
                                  (:name "out")
                                  (:reactive nil)))
-                               (:id 24))
+                               (:id 20))
                               (:box
                                (:type :value)
                                (:reference fixnum)
@@ -11366,7 +11252,7 @@
                                  (:name "value")
                                  (:reactive nil)))
                                (:value 1)
-                               (:id 25))
+                               (:id 21))
                               (:box
                                (:type :function)
                                (:reference split)
@@ -11396,7 +11282,7 @@
                                 (:output
                                  (:name "out1")
                                  (:reactive nil)))
-                               (:id 26))
+                               (:id 22))
                               (:box
                                (:type :function)
                                (:reference om/)
@@ -11430,7 +11316,7 @@
                                 (:output
                                  (:name "out")
                                  (:reactive nil)))
-                               (:id 27))
+                               (:id 23))
                               (:box
                                (:type :function)
                                (:reference om+)
@@ -11464,7 +11350,7 @@
                                 (:output
                                  (:name "out")
                                  (:reactive nil)))
-                               (:id 28))
+                               (:id 24))
                               (:box
                                (:type :value)
                                (:reference fixnum)
@@ -11490,7 +11376,7 @@
                                  (:name "value")
                                  (:reactive nil)))
                                (:value 1)
-                               (:id 29))
+                               (:id 25))
                               (:box
                                (:type :function)
                                (:reference nth)
@@ -11524,7 +11410,7 @@
                                 (:output
                                  (:name "out")
                                  (:reactive nil)))
-                               (:id 30))
+                               (:id 26))
                               (:box
                                (:type :value)
                                (:reference fixnum)
@@ -11550,7 +11436,7 @@
                                  (:name "value")
                                  (:reactive nil)))
                                (:value 3)
-                               (:id 31))
+                               (:id 27))
                               (:box
                                (:type :function)
                                (:reference nth)
@@ -11584,7 +11470,7 @@
                                 (:output
                                  (:name "out")
                                  (:reactive nil)))
-                               (:id 32))
+                               (:id 28))
                               (:box
                                (:type :value)
                                (:reference fixnum)
@@ -11610,7 +11496,7 @@
                                  (:name "value")
                                  (:reactive nil)))
                                (:value 4)
-                               (:id 33))
+                               (:id 29))
                               (:box
                                (:type :abstraction)
                                (:reference
@@ -11844,8 +11730,8 @@
                                     (:patch-from-file
                                      (:pathname
                                       (:directory (:relative))
-                                      (:device nil)
-                                      (:host nil)
+                                      (:device :unspecific)
+                                      (:host :unspecific)
                                       (:name "replacen")
                                       (:type "opat"))))
                                    (:group-id nil)
@@ -11955,7 +11841,7 @@
                                 (:output
                                  (:name "out")
                                  (:reactive nil)))
-                               (:id 34))
+                               (:id 30))
                               (:box
                                (:type :function)
                                (:reference om+)
@@ -11989,7 +11875,7 @@
                                 (:output
                                  (:name "out")
                                  (:reactive nil)))
-                               (:id 35))
+                               (:id 31))
                               (:box
                                (:type :function)
                                (:reference om-)
@@ -12023,7 +11909,7 @@
                                 (:output
                                  (:name "out")
                                  (:reactive nil)))
-                               (:id 36))
+                               (:id 32))
                               (:box
                                (:type :function)
                                (:reference om/)
@@ -12057,7 +11943,7 @@
                                 (:output
                                  (:name "out")
                                  (:reactive nil)))
-                               (:id 37))
+                               (:id 33))
                               (:box
                                (:type :function)
                                (:reference nth)
@@ -12091,7 +11977,7 @@
                                 (:output
                                  (:name "out")
                                  (:reactive nil)))
-                               (:id 38))
+                               (:id 34))
                               (:box
                                (:type :value)
                                (:reference fixnum)
@@ -12117,7 +12003,7 @@
                                  (:name "value")
                                  (:reactive nil)))
                                (:value 1)
-                               (:id 39))
+                               (:id 35))
                               (:box
                                (:type :function)
                                (:reference nth)
@@ -12151,7 +12037,7 @@
                                 (:output
                                  (:name "out")
                                  (:reactive nil)))
-                               (:id 40))
+                               (:id 36))
                               (:box
                                (:type :value)
                                (:reference fixnum)
@@ -12177,7 +12063,7 @@
                                  (:name "value")
                                  (:reactive nil)))
                                (:value 2)
-                               (:id 41))
+                               (:id 37))
                               (:box
                                (:type :abstraction)
                                (:reference
@@ -12617,7 +12503,7 @@
                                 (:output
                                  (:name "out")
                                  (:reactive nil)))
-                               (:id 42))
+                               (:id 38))
                               (:box
                                (:type :function)
                                (:reference split)
@@ -12647,7 +12533,7 @@
                                 (:output
                                  (:name "out1")
                                  (:reactive nil)))
-                               (:id 43))
+                               (:id 39))
                               (:box
                                (:type :abstraction)
                                (:reference
@@ -13087,7 +12973,7 @@
                                 (:output
                                  (:name "out")
                                  (:reactive nil)))
-                               (:id 44))
+                               (:id 40))
                               (:box
                                (:type :abstraction)
                                (:reference
@@ -13527,7 +13413,7 @@
                                 (:output
                                  (:name "out")
                                  (:reactive nil)))
-                               (:id 45))
+                               (:id 41))
                               (:box
                                (:type :abstraction)
                                (:reference
@@ -13967,7 +13853,7 @@
                                 (:output
                                  (:name "out")
                                  (:reactive nil)))
-                               (:id 46))
+                               (:id 42))
                               (:box
                                (:type :function)
                                (:reference split)
@@ -13997,15 +13883,15 @@
                                 (:output
                                  (:name "out1")
                                  (:reactive nil)))
-                               (:id 47))
+                               (:id 43))
                               (:box
                                (:type :abstraction)
                                (:reference
                                 (:patch-from-file
                                  (:pathname
                                   (:directory (:relative))
-                                  (:device nil)
-                                  (:host nil)
+                                  (:device :unspecific)
+                                  (:host :unspecific)
                                   (:name "replacen")
                                   (:type "opat"))))
                                (:group-id nil)
@@ -14044,19 +13930,21 @@
                                 (:output
                                  (:name "out")
                                  (:reactive nil)))
-                               (:id 48))
+                               (:id 44))
                               (:box
                                (:type :abstraction)
                                (:reference
                                 (:patch
-                                 (:name "addstart")
+                                 (:name "addend")
                                  (:doc "")
                                  (:info
                                   (:created nil)
                                   (:modified nil)
                                   (:by *app-name*)
                                   (:version 0))
-                                 (:window (:size nil) (:position nil))
+                                 (:window
+                                  (:size (500 500))
+                                  (:position (0 0)))
                                  (:grid nil)
                                  (:lock nil)
                                  (:boxes
@@ -14342,8 +14230,8 @@
                                     (:patch-from-file
                                      (:pathname
                                       (:directory (:relative))
-                                      (:device nil)
-                                      (:host nil)
+                                      (:device :unspecific)
+                                      (:host :unspecific)
                                       (:name "replacen")
                                       (:type "opat"))))
                                    (:group-id nil)
@@ -14422,7 +14310,7 @@
                                    (:from (:box 9 :out 0))
                                    (:to (:box 1 :in 0))))))
                                (:group-id nil)
-                               (:name "addstart")
+                               (:name "addend")
                                (:x 334)
                                (:y 539)
                                (:w 114)
@@ -14457,20 +14345,50 @@
                                 (:output
                                  (:name "out")
                                  (:reactive nil)))
-                               (:id 49)))
+                               (:id 45))
+                              (:box
+                               (:type :function)
+                               (:reference split)
+                               (:group-id nil)
+                               (:name "split")
+                               (:x 259)
+                               (:y 111)
+                               (:w 68)
+                               (:h 36)
+                               (:color nil)
+                               (:border nil)
+                               (:roundness nil)
+                               (:text-font nil)
+                               (:align nil)
+                               (:icon :left)
+                               (:lock nil)
+                               (:lambda nil)
+                               (:reactive nil)
+                               (:inputs
+                                (:input
+                                 (:type :standard)
+                                 (:name "LIST")
+                                 (:value nil)
+                                 (:reactive nil)))
+                               (:outputs
+                                (:output (:name "out") (:reactive nil))
+                                (:output
+                                 (:name "out1")
+                                 (:reactive nil)))
+                               (:id 46)))
                              (:connections
                               (:connection
                                (:from (:box 0 :out 0))
                                (:to (:box 6 :in 0)))
                               (:connection
                                (:from (:box 2 :out 0))
-                               (:to (:box 26 :in 0)))
+                               (:to (:box 22 :in 0)))
                               (:connection
                                (:from (:box 3 :out 0))
-                               (:to (:box 24 :in 0)))
+                               (:to (:box 20 :in 0)))
                               (:connection
                                (:from (:box 4 :out 0))
-                               (:to (:box 45 :in 0))
+                               (:to (:box 41 :in 0))
                                (:attributes
                                 (:color
                                  nil
@@ -14480,16 +14398,6 @@
                                  (0 0.45))))
                               (:connection
                                (:from (:box 4 :out 0))
-                               (:to (:box 46 :in 0))
-                               (:attributes
-                                (:color
-                                 nil
-                                 :style
-                                 nil
-                                 :modif
-                                 (0 0.45))))
-                              (:connection
-                               (:from (:box 5 :out 0))
                                (:to (:box 42 :in 0))
                                (:attributes
                                 (:color
@@ -14500,7 +14408,17 @@
                                  (0 0.45))))
                               (:connection
                                (:from (:box 5 :out 0))
-                               (:to (:box 44 :in 0))
+                               (:to (:box 38 :in 0))
+                               (:attributes
+                                (:color
+                                 nil
+                                 :style
+                                 nil
+                                 :modif
+                                 (0 0.45))))
+                              (:connection
+                               (:from (:box 5 :out 0))
+                               (:to (:box 40 :in 0))
                                (:attributes
                                 (:color
                                  nil
@@ -14520,24 +14438,7 @@
                                  (0 -0.45))))
                               (:connection
                                (:from (:box 6 :out 0))
-                               (:to (:box 11 :in 1))
-                               (:attributes
-                                (:color
-                                 nil
-                                 :style
-                                 nil
-                                 :modif
-                                 (-11/219 0.33787882))))
-                              (:connection
-                               (:from (:box 6 :out 0))
-                               (:to (:box 17 :in 1))
-                               (:attributes
-                                (:color
-                                 nil
-                                 :style
-                                 nil
-                                 :modif
-                                 (0 0.3393187))))
+                               (:to (:box 46 :in 0)))
                               (:connection
                                (:from (:box 6 :out 1))
                                (:to (:box 7 :in 1))
@@ -14550,10 +14451,10 @@
                                  (0 -0.45))))
                               (:connection
                                (:from (:box 6 :out 1))
-                               (:to (:box 48 :in 1)))
+                               (:to (:box 44 :in 1)))
                               (:connection
                                (:from (:box 7 :out 0))
-                               (:to (:box 19 :in 1))
+                               (:to (:box 15 :in 1))
                                (:attributes
                                 (:color
                                  nil
@@ -14566,19 +14467,13 @@
                                (:to (:box 7 :in 0)))
                               (:connection
                                (:from (:box 9 :out 0))
-                               (:to (:box 48 :in 0)))
+                               (:to (:box 44 :in 0)))
                               (:connection
                                (:from (:box 10 :out 0))
                                (:to (:box 1 :in 0)))
                               (:connection
                                (:from (:box 11 :out 0))
-                               (:to (:box 36 :in 0)))
-                              (:connection
-                               (:from (:box 12 :out 0))
-                               (:to (:box 11 :in 0)))
-                              (:connection
-                               (:from (:box 13 :out 0))
-                               (:to (:box 14 :in 0))
+                               (:to (:box 12 :in 0))
                                (:attributes
                                 (:color
                                  nil
@@ -14587,8 +14482,8 @@
                                  :modif
                                  (0 -0.4083333))))
                               (:connection
-                               (:from (:box 14 :out 0))
-                               (:to (:box 34 :in 0))
+                               (:from (:box 12 :out 0))
+                               (:to (:box 30 :in 0))
                                (:attributes
                                 (:color
                                  nil
@@ -14597,8 +14492,8 @@
                                  :modif
                                  (13/94 0))))
                               (:connection
-                               (:from (:box 15 :out 0))
-                               (:to (:box 22 :in 2))
+                               (:from (:box 13 :out 0))
+                               (:to (:box 18 :in 2))
                                (:attributes
                                 (:color
                                  nil
@@ -14607,45 +14502,29 @@
                                  :modif
                                  (0 0.45))))
                               (:connection
+                               (:from (:box 14 :out 0))
+                               (:to (:box 44 :in 2)))
+                              (:connection
+                               (:from (:box 15 :out 0))
+                               (:to (:box 11 :in 0)))
+                              (:connection
                                (:from (:box 16 :out 0))
-                               (:to (:box 48 :in 2)))
+                               (:to (:box 15 :in 0)))
                               (:connection
                                (:from (:box 17 :out 0))
-                               (:to (:box 21 :in 0))
-                               (:attributes
-                                (:color
-                                 nil
-                                 :style
-                                 nil
-                                 :modif
-                                 (0 7/20))))
-                              (:connection
-                               (:from (:box 17 :out 0))
-                               (:to (:box 35 :in 0)))
+                               (:to (:box 15 :in 2)))
                               (:connection
                                (:from (:box 18 :out 0))
-                               (:to (:box 17 :in 0)))
+                               (:to (:box 14 :in 0)))
                               (:connection
                                (:from (:box 19 :out 0))
-                               (:to (:box 13 :in 0)))
+                               (:to (:box 18 :in 0)))
                               (:connection
                                (:from (:box 20 :out 0))
-                               (:to (:box 19 :in 0)))
+                               (:to (:box 24 :in 0)))
                               (:connection
-                               (:from (:box 21 :out 0))
-                               (:to (:box 19 :in 2)))
-                              (:connection
-                               (:from (:box 22 :out 0))
-                               (:to (:box 16 :in 0)))
-                              (:connection
-                               (:from (:box 23 :out 0))
-                               (:to (:box 22 :in 0)))
-                              (:connection
-                               (:from (:box 24 :out 0))
-                               (:to (:box 28 :in 0)))
-                              (:connection
-                               (:from (:box 24 :out 0))
-                               (:to (:box 42 :in 3))
+                               (:from (:box 20 :out 0))
+                               (:to (:box 38 :in 3))
                                (:attributes
                                 (:color
                                  nil
@@ -14654,8 +14533,8 @@
                                  :modif
                                  (0 0.3930052))))
                               (:connection
-                               (:from (:box 24 :out 0))
-                               (:to (:box 44 :in 3))
+                               (:from (:box 20 :out 0))
+                               (:to (:box 40 :in 3))
                                (:attributes
                                 (:color
                                  nil
@@ -14664,8 +14543,8 @@
                                  :modif
                                  (0 0.32564765))))
                               (:connection
-                               (:from (:box 24 :out 0))
-                               (:to (:box 45 :in 3))
+                               (:from (:box 20 :out 0))
+                               (:to (:box 41 :in 3))
                                (:attributes
                                 (:color
                                  nil
@@ -14674,8 +14553,8 @@
                                  :modif
                                  (0 0.41093752))))
                               (:connection
-                               (:from (:box 24 :out 0))
-                               (:to (:box 46 :in 3))
+                               (:from (:box 20 :out 0))
+                               (:to (:box 42 :in 3))
                                (:attributes
                                 (:color
                                  nil
@@ -14684,17 +14563,17 @@
                                  :modif
                                  (0 0.4135417))))
                               (:connection
-                               (:from (:box 25 :out 0))
-                               (:to (:box 24 :in 1)))
+                               (:from (:box 21 :out 0))
+                               (:to (:box 20 :in 1)))
                               (:connection
-                               (:from (:box 26 :out 0))
+                               (:from (:box 22 :out 0))
+                               (:to (:box 39 :in 0)))
+                              (:connection
+                               (:from (:box 22 :out 1))
                                (:to (:box 43 :in 0)))
                               (:connection
-                               (:from (:box 26 :out 1))
-                               (:to (:box 47 :in 0)))
-                              (:connection
-                               (:from (:box 27 :out 0))
-                               (:to (:box 42 :in 4))
+                               (:from (:box 23 :out 0))
+                               (:to (:box 38 :in 4))
                                (:attributes
                                 (:color
                                  nil
@@ -14703,8 +14582,8 @@
                                  :modif
                                  (0 -3/37))))
                               (:connection
-                               (:from (:box 27 :out 0))
-                               (:to (:box 45 :in 4))
+                               (:from (:box 23 :out 0))
+                               (:to (:box 41 :in 4))
                                (:attributes
                                 (:color
                                  nil
@@ -14713,14 +14592,14 @@
                                  :modif
                                  (0 0.45))))
                               (:connection
-                               (:from (:box 28 :out 0))
-                               (:to (:box 15 :in 0)))
+                               (:from (:box 24 :out 0))
+                               (:to (:box 13 :in 0)))
                               (:connection
-                               (:from (:box 29 :out 0))
-                               (:to (:box 28 :in 1)))
+                               (:from (:box 25 :out 0))
+                               (:to (:box 24 :in 1)))
                               (:connection
-                               (:from (:box 30 :out 0))
-                               (:to (:box 42 :in 1))
+                               (:from (:box 26 :out 0))
+                               (:to (:box 38 :in 1))
                                (:attributes
                                 (:color
                                  nil
@@ -14729,8 +14608,8 @@
                                  :modif
                                  (0 -6/25))))
                               (:connection
-                               (:from (:box 30 :out 0))
-                               (:to (:box 44 :in 1))
+                               (:from (:box 26 :out 0))
+                               (:to (:box 40 :in 1))
                                (:attributes
                                 (:color
                                  nil
@@ -14739,11 +14618,11 @@
                                  :modif
                                  (0 -0.22999993))))
                               (:connection
-                               (:from (:box 31 :out 0))
-                               (:to (:box 30 :in 0)))
+                               (:from (:box 27 :out 0))
+                               (:to (:box 26 :in 0)))
                               (:connection
-                               (:from (:box 32 :out 0))
-                               (:to (:box 42 :in 2))
+                               (:from (:box 28 :out 0))
+                               (:to (:box 38 :in 2))
                                (:attributes
                                 (:color
                                  nil
@@ -14752,8 +14631,8 @@
                                  :modif
                                  (0 -1/10))))
                               (:connection
-                               (:from (:box 32 :out 0))
-                               (:to (:box 44 :in 2))
+                               (:from (:box 28 :out 0))
+                               (:to (:box 40 :in 2))
                                (:attributes
                                 (:color
                                  nil
@@ -14762,23 +14641,30 @@
                                  :modif
                                  (0 -0.45))))
                               (:connection
+                               (:from (:box 29 :out 0))
+                               (:to (:box 28 :in 0)))
+                              (:connection
+                               (:from (:box 30 :out 0))
+                               (:to (:box 45 :in 0))
+                               (:attributes
+                                (:color
+                                 nil
+                                 :style
+                                 nil
+                                 :modif
+                                 (0 -38/121))))
+                              (:connection
+                               (:from (:box 31 :out 0))
+                               (:to (:box 33 :in 0)))
+                              (:connection
+                               (:from (:box 32 :out 0))
+                               (:to (:box 23 :in 0)))
+                              (:connection
+                               (:from (:box 32 :out 0))
+                               (:to (:box 31 :in 1)))
+                              (:connection
                                (:from (:box 33 :out 0))
-                               (:to (:box 32 :in 0)))
-                              (:connection
-                               (:from (:box 34 :out 0))
-                               (:to (:box 49 :in 0)))
-                              (:connection
-                               (:from (:box 35 :out 0))
-                               (:to (:box 37 :in 0)))
-                              (:connection
-                               (:from (:box 36 :out 0))
-                               (:to (:box 27 :in 0)))
-                              (:connection
-                               (:from (:box 36 :out 0))
-                               (:to (:box 35 :in 1)))
-                              (:connection
-                               (:from (:box 37 :out 0))
-                               (:to (:box 44 :in 4))
+                               (:to (:box 40 :in 4))
                                (:attributes
                                 (:color
                                  nil
@@ -14787,8 +14673,8 @@
                                  :modif
                                  (0 -0.4074468))))
                               (:connection
-                               (:from (:box 37 :out 0))
-                               (:to (:box 46 :in 4))
+                               (:from (:box 33 :out 0))
+                               (:to (:box 42 :in 4))
                                (:attributes
                                 (:color
                                  nil
@@ -14797,11 +14683,8 @@
                                  :modif
                                  (0 0.44159663))))
                               (:connection
-                               (:from (:box 37 :out 0))
-                               (:to (:box 49 :in 1)))
-                              (:connection
-                               (:from (:box 38 :out 0))
-                               (:to (:box 45 :in 1))
+                               (:from (:box 34 :out 0))
+                               (:to (:box 41 :in 1))
                                (:attributes
                                 (:color
                                  nil
@@ -14810,14 +14693,14 @@
                                  :modif
                                  (0 -0.38846153))))
                               (:connection
-                               (:from (:box 38 :out 0))
-                               (:to (:box 46 :in 1)))
+                               (:from (:box 34 :out 0))
+                               (:to (:box 42 :in 1)))
                               (:connection
-                               (:from (:box 39 :out 0))
-                               (:to (:box 38 :in 0)))
+                               (:from (:box 35 :out 0))
+                               (:to (:box 34 :in 0)))
                               (:connection
-                               (:from (:box 40 :out 0))
-                               (:to (:box 45 :in 2))
+                               (:from (:box 36 :out 0))
+                               (:to (:box 41 :in 2))
                                (:attributes
                                 (:color
                                  nil
@@ -14826,8 +14709,8 @@
                                  :modif
                                  (0 -12/65))))
                               (:connection
-                               (:from (:box 40 :out 0))
-                               (:to (:box 46 :in 2))
+                               (:from (:box 36 :out 0))
+                               (:to (:box 42 :in 2))
                                (:attributes
                                 (:color
                                  nil
@@ -14836,11 +14719,11 @@
                                  :modif
                                  (0 -0.45))))
                               (:connection
-                               (:from (:box 41 :out 0))
-                               (:to (:box 40 :in 0)))
+                               (:from (:box 37 :out 0))
+                               (:to (:box 36 :in 0)))
                               (:connection
-                               (:from (:box 42 :out 0))
-                               (:to (:box 13 :in 1))
+                               (:from (:box 38 :out 0))
+                               (:to (:box 11 :in 1))
                                (:attributes
                                 (:color
                                  nil
@@ -14849,21 +14732,21 @@
                                  :modif
                                  (0 -0.26690137))))
                               (:connection
-                               (:from (:box 42 :out 0))
-                               (:to (:box 14 :in 1))
+                               (:from (:box 38 :out 0))
+                               (:to (:box 12 :in 1))
                                (:attributes
                                 (:color
                                  nil
                                  :style
                                  nil
                                  :modif
-                                 (0 -0.4306763))))
+                                 (0 -0.024879192))))
                               (:connection
-                               (:from (:box 43 :out 0))
-                               (:to (:box 36 :in 1)))
+                               (:from (:box 39 :out 0))
+                               (:to (:box 32 :in 1)))
                               (:connection
-                               (:from (:box 43 :out 1))
-                               (:to (:box 27 :in 1))
+                               (:from (:box 39 :out 1))
+                               (:to (:box 23 :in 1))
                                (:attributes
                                 (:color
                                  nil
@@ -14872,26 +14755,36 @@
                                  :modif
                                  (0 0.40714285))))
                               (:connection
-                               (:from (:box 43 :out 1))
-                               (:to (:box 37 :in 1)))
+                               (:from (:box 39 :out 1))
+                               (:to (:box 33 :in 1)))
                               (:connection
-                               (:from (:box 44 :out 0))
-                               (:to (:box 34 :in 1)))
-                              (:connection
-                               (:from (:box 45 :out 0))
-                               (:to (:box 14 :in 2)))
-                              (:connection
-                               (:from (:box 46 :out 0))
-                               (:to (:box 49 :in 2)))
-                              (:connection
-                               (:from (:box 47 :out 1))
-                               (:to (:box 32 :in 1)))
-                              (:connection
-                               (:from (:box 47 :out 1))
+                               (:from (:box 40 :out 0))
                                (:to (:box 30 :in 1)))
                               (:connection
-                               (:from (:box 47 :out 1))
-                               (:to (:box 38 :in 1))
+                               (:from (:box 40 :out 0))
+                               (:to (:box 45 :in 1))
+                               (:attributes
+                                (:color
+                                 nil
+                                 :style
+                                 nil
+                                 :modif
+                                 (0 0.08461535))))
+                              (:connection
+                               (:from (:box 41 :out 0))
+                               (:to (:box 12 :in 2)))
+                              (:connection
+                               (:from (:box 42 :out 0))
+                               (:to (:box 45 :in 2)))
+                              (:connection
+                               (:from (:box 43 :out 1))
+                               (:to (:box 28 :in 1)))
+                              (:connection
+                               (:from (:box 43 :out 1))
+                               (:to (:box 26 :in 1)))
+                              (:connection
+                               (:from (:box 43 :out 1))
+                               (:to (:box 34 :in 1))
                                (:attributes
                                 (:color
                                  nil
@@ -14900,8 +14793,8 @@
                                  :modif
                                  (0 0.27022475))))
                               (:connection
-                               (:from (:box 47 :out 1))
-                               (:to (:box 40 :in 1))
+                               (:from (:box 43 :out 1))
+                               (:to (:box 36 :in 1))
                                (:attributes
                                 (:color
                                  nil
@@ -14910,11 +14803,27 @@
                                  :modif
                                  (0 24/89))))
                               (:connection
-                               (:from (:box 48 :out 0))
+                               (:from (:box 44 :out 0))
                                (:to (:box 10 :in 1)))
                               (:connection
-                               (:from (:box 49 :out 0))
-                               (:to (:box 22 :in 1))))))
+                               (:from (:box 45 :out 0))
+                               (:to (:box 18 :in 1)))
+                              (:connection
+                               (:from (:box 46 :out 0))
+                               (:to (:box 32 :in 0)))
+                              (:connection
+                               (:from (:box 46 :out 1))
+                               (:to (:box 31 :in 0)))
+                              (:connection
+                               (:from (:box 46 :out 1))
+                               (:to (:box 17 :in 0))
+                               (:attributes
+                                (:color
+                                 nil
+                                 :style
+                                 nil
+                                 :modif
+                                 (0 -29/122)))))))
                            (:group-id nil)
                            (:name "addandmult")
                            (:x 81)
@@ -15130,7 +15039,7 @@
                       (:modified nil)
                       (:by *app-name*)
                       (:version 0))
-                     (:window (:size nil) (:position nil))
+                     (:window (:size (500 500)) (:position (0 0)))
                      (:grid nil)
                      (:lock nil)
                      (:boxes
@@ -15867,70 +15776,16 @@
                          (:reactive nil)))
                        (:outputs
                         (:output (:name "out") (:reactive nil)))
-                       (:id 7))
-                      (:box
-                       (:type :function)
-                       (:reference om+)
-                       (:group-id nil)
-                       (:name "om+")
-                       (:x 314)
-                       (:y 118)
-                       (:w 71)
-                       (:h 36)
-                       (:color nil)
-                       (:border nil)
-                       (:roundness nil)
-                       (:text-font nil)
-                       (:align nil)
-                       (:icon :left)
-                       (:lock nil)
-                       (:lambda nil)
-                       (:reactive nil)
-                       (:inputs
-                        (:input
-                         (:type :standard)
-                         (:name "ARG1")
-                         (:value 0)
-                         (:reactive nil))
-                        (:input
-                         (:type :standard)
-                         (:name "ARG2")
-                         (:value 0)
-                         (:reactive nil)))
-                       (:outputs
-                        (:output (:name "out") (:reactive nil)))
-                       (:id 8))
-                      (:box
-                       (:type :value)
-                       (:reference fixnum)
-                       (:group-id nil)
-                       (:name "value box")
-                       (:x 352)
-                       (:y 82)
-                       (:w 32)
-                       (:h 36)
-                       (:color
-                        (:color-or-nil
-                         (:color (:color 1.0 1.0 1.0 1.0))
-                         (:t-or-nil t)))
-                       (:border nil)
-                       (:roundness nil)
-                       (:text-font nil)
-                       (:align nil)
-                       (:lock nil)
-                       (:reactive nil)
-                       (:inputs)
-                       (:outputs
-                        (:output (:name "value") (:reactive nil)))
-                       (:value 1)
-                       (:id 9)))
+                       (:id 7)))
                      (:connections
                       (:connection
                        (:from (:box 0 :out 0))
                        (:to (:box 4 :in 0)))
                       (:connection
                        (:from (:box 2 :out 0))
-                       (:to (:box 8 :in 0)))
+                       (:to (:box 7 :in 0))
+                       (:attributes
+                        (:color nil :style nil :modif (0 -0.45))))
                       (:connection
                        (:from (:box 3 :out 0))
                        (:to (:box 6 :in 0))
@@ -15963,13 +15818,7 @@
                        (:from (:box 7 :out 0))
                        (:to (:box 6 :in 4))
                        (:attributes
-                        (:color nil :style nil :modif (0 19/67))))
-                      (:connection
-                       (:from (:box 8 :out 0))
-                       (:to (:box 7 :in 0)))
-                      (:connection
-                       (:from (:box 9 :out 0))
-                       (:to (:box 8 :in 1))))))
+                        (:color nil :style nil :modif (0 19/67)))))))
                    (:group-id nil)
                    (:name "permuteins")
                    (:x 285)
@@ -16743,7 +16592,7 @@
       (:modified nil)
       (:by *app-name*)
       (:version 0))
-     (:window (:size nil) (:position nil))
+     (:window (:size (727 500)) (:position (218 263)))
      (:grid nil)
      (:lock nil)
      (:boxes
@@ -17143,7 +16992,7 @@
           (:modified nil)
           (:by *app-name*)
           (:version 0))
-         (:window (:size nil) (:position nil))
+         (:window (:size (500 500)) (:position (0 0)))
          (:grid nil)
          (:lock nil)
          (:boxes
@@ -17332,7 +17181,7 @@
               (:modified nil)
               (:by *app-name*)
               (:version 0))
-             (:window (:size nil) (:position nil))
+             (:window (:size (500 500)) (:position (0 0)))
              (:grid nil)
              (:lock nil)
              (:boxes
@@ -17530,7 +17379,7 @@
                   (:modified nil)
                   (:by *app-name*)
                   (:version 0))
-                 (:window (:size nil) (:position nil))
+                 (:window (:size (1105 998)) (:position (0 45)))
                  (:grid nil)
                  (:lock nil)
                  (:boxes
@@ -18108,7 +17957,7 @@
                       (:modified nil)
                       (:by *app-name*)
                       (:version 0))
-                     (:window (:size nil) (:position nil))
+                     (:window (:size (500 500)) (:position (398 443)))
                      (:grid nil)
                      (:lock nil)
                      (:boxes
@@ -20150,8 +19999,8 @@
                         (:patch-from-file
                          (:pathname
                           (:directory (:relative))
-                          (:device nil)
-                          (:host nil)
+                          (:device :unspecific)
+                          (:host :unspecific)
                           (:name "listord")
                           (:type "opat"))))
                        (:group-id nil)
@@ -20281,8 +20130,8 @@
                         (:patch-from-file
                          (:pathname
                           (:directory (:relative))
-                          (:device nil)
-                          (:host nil)
+                          (:device :unspecific)
+                          (:host :unspecific)
                           (:name "delfirst-n")
                           (:type "opat"))))
                        (:group-id nil)
@@ -20515,8 +20364,8 @@
                             (:patch-from-file
                              (:pathname
                               (:directory (:relative))
-                              (:device nil)
-                              (:host nil)
+                              (:device :unspecific)
+                              (:host :unspecific)
                               (:name "addabs")
                               (:type "opat"))))
                            (:group-id nil)
@@ -22110,8 +21959,8 @@
                 (:patch-from-file
                  (:pathname
                   (:directory (:relative))
-                  (:device nil)
-                  (:host nil)
+                  (:device :unspecific)
+                  (:host :unspecific)
                   (:name "listord")
                   (:type "opat"))))
                (:group-id nil)
@@ -22635,8 +22484,8 @@
     (:patch-from-file
      (:pathname
       (:directory (:relative))
-      (:device nil)
-      (:host nil)
+      (:device :unspecific)
+      (:host :unspecific)
       (:name "om-frak-core")
       (:type "opat"))))
    (:group-id nil)
